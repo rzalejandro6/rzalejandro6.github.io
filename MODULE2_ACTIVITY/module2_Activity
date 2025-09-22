@@ -9,7 +9,7 @@
 <body>
     <main>
         <header>
-            <h1 class="center-text">"Hello I'm R.J.!</h1>
+            <h1> Hello I'm R.J.!</h1>
         </header>
         <hr>
             <nav>
