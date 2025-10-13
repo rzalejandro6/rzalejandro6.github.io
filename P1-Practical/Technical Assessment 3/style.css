@@ -1,18 +1,22 @@
+/* Universal Selector */
 * {
     font-family: cursive;
     text-decoration: none;
 }
 
+/* The header of the webpage  */
 header {
     text-align: end;
     background-color:cornsilk;
     font-size: 10px;
 }
 
+/* It change the color text of the navigation */
 a {
     color: brown;
 }
 
+/* this change the font size of the h2 tag in the html but to separate the underline value .right selector with the h2 for only the h2 right side has only the underline value  */
 h2 p {
     font-size: 40px;
 } 
@@ -22,12 +26,13 @@ h2 p {
     text-decoration: underline;
 }
 
-
+/* change all the h3 property of h3 tag */
 h3 {
     font-weight: 500;
     margin-top: 20px;
 }
 
+/* adding a div class=image pair and item to make the text align with the align format of the image */
 .image-pair {
   display: flex;
   justify-content: center; /* centers the images horizontally */
@@ -39,6 +44,7 @@ h3 {
   text-align: center; /* centers the text under each image */
 }
 
+/* property and value for the h4 tag */
 .image-item h4 {
   margin-top: 8px; /* small space between the image and the label */
   font-weight: 530;
@@ -51,17 +57,20 @@ p {
     text-decoration: none;
 }
 
+/* getting the attribute of the abbout me and project to specify the that this section will have a margin */
 #ABOUTME,
 #PROJECTS {
   margin: 40px 0; /* adds space above and below these two sections */
 }
 
+/* property aof body */
 body {
     justify-content: center;
-    align-items: stretch;
+    align-items: stretch;  /* make the coinatiner strecth in the webpage interface*/
     background-color: blanchedalmond;
 }
 
+/* adding the slector right left and footer to manipulate the design and padding */
 .right {
     background-color: cornsilk;
 }
@@ -70,19 +79,21 @@ body {
     background-color: cornsilk;
 }
 
-
+/* footer */
 footer {
   text-align: center;
   padding: 30px 0;
   background-color: cornsilk;
 }
 
+/* to select the table under the footer and to make it separate and organize */
 footer table {
   margin: 0 auto; /* centers the table */
   border-collapse: separate; /* allows cell spacing */
   border-spacing: 20px 15px; /* horizontal, vertical spacing */
 }
 
+/* grouped part of the table  */
 footer th,
 footer td {
   padding: 10px 20px; /* adds inner spacing */
@@ -90,27 +101,32 @@ footer td {
   vertical-align: middle;
 }
 
+/* select the th fot thi only will change */
 footer th {
   font-size: 18px;
   text-transform: uppercase;
-  
+
 }
 
+/* for make the navigation with no undeline */
 footer td a {
   text-decoration: none;
   
 }
 
+/* when pointing the cursor at the navigation the word will be underlined*/
 footer td a:hover {
   text-decoration: underline;
 }
 
+/* property of the ul in the table */
 footer ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
+/* property of the li in the table */
 footer li {
   margin: 5px 0;
 }

@@ -1,15 +1,18 @@
+/* Universal selector and property of the webpage */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* selct the body of the html and edit its property */
 body {
     min-height: 100vh;
     display: flex;
     justify-content: center;
 }
 
+/* sselect the div tag  and making a 2 columns */
 .container {
     display: grid;
     grid-template-rows: auto auto;
@@ -22,6 +25,7 @@ body {
     min-height: 100vh;
 }
 
+/* header tag selctor */
 header {
     padding: 25px;
     margin: 25x;
@@ -29,6 +33,7 @@ header {
     box-sizing: border-box;
 }
 
+/* main tag selector */
 main {
     grid-area: main;
     display: grid;
@@ -37,6 +42,7 @@ main {
     padding: 1rem;
 }
 
+/* select the class left ans right to add designs */
 .left {
     grid-column: 1;
     padding: 1rem;
@@ -47,6 +53,7 @@ main {
     padding: 1rem;
 }
 
+/* select the footer */
 footer {
     grid-area: footer;
     padding: 0.5rem;
