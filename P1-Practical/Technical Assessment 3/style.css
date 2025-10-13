@@ -1,20 +1,118 @@
 * {
     font-family: cursive;
+    text-decoration: none;
 }
 
-<<<<<<< HEAD
 header {
     text-align: end;
-    background-color: blanchedalmond;
-}
-=======
-body {
-    background-color: beige;
+    background-color:cornsilk;
+    font-size: 10px;
 }
 
-header {
-    justify-content: right;
-    background-color: bisque;
-    padding: 0px;
+a {
+    color: brown;
 }
->>>>>>> 104a4dccc0ff8578e8b9ebc9640b960b561aecee
+
+h2 p {
+    font-size: 40px;
+} 
+
+.right h2 {
+    font-size: 27px;
+    text-decoration: underline;
+}
+
+
+h3 {
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.image-pair {
+  display: flex;
+  justify-content: center; /* centers the images horizontally */
+  gap: 40px; /* space between the two images */
+  margin: 20px 0; /* space above/below the pair */
+}
+
+.image-item {
+  text-align: center; /* centers the text under each image */
+}
+
+.image-item h4 {
+  margin-top: 8px; /* small space between the image and the label */
+  font-weight: 530;
+  font-size: 15px;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+    text-decoration: none;
+}
+
+#ABOUTME,
+#PROJECTS {
+  margin: 40px 0; /* adds space above and below these two sections */
+}
+
+body {
+    justify-content: center;
+    align-items: stretch;
+    background-color: blanchedalmond;
+}
+
+.right {
+    background-color: cornsilk;
+}
+
+.left {
+    background-color: cornsilk;
+}
+
+
+footer {
+  text-align: center;
+  padding: 30px 0;
+  background-color: cornsilk;
+}
+
+footer table {
+  margin: 0 auto; /* centers the table */
+  border-collapse: separate; /* allows cell spacing */
+  border-spacing: 20px 15px; /* horizontal, vertical spacing */
+}
+
+footer th,
+footer td {
+  padding: 10px 20px; /* adds inner spacing */
+  text-align: center;
+  vertical-align: middle;
+}
+
+footer th {
+  font-size: 18px;
+  text-transform: uppercase;
+  
+}
+
+footer td a {
+  text-decoration: none;
+  
+}
+
+footer td a:hover {
+  text-decoration: underline;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer li {
+  margin: 5px 0;
+}
+
+    
