@@ -2,7 +2,19 @@
     font-family: cursive;
 }
 
+<<<<<<< HEAD
 header {
     text-align: end;
     background-color: blanchedalmond;
 }
+=======
+body {
+    background-color: beige;
+}
+
+header {
+    justify-content: right;
+    background-color: bisque;
+    padding: 0px;
+}
+>>>>>>> 104a4dccc0ff8578e8b9ebc9640b960b561aecee
