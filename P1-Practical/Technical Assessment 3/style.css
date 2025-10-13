@@ -1,0 +1,13 @@
+* {
+    font-family: cursive;
+}
+
+body {
+    background-color: beige;
+}
+
+header {
+    justify-content: right;
+    background-color: bisque;
+    padding: 0px;
+}
