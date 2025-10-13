@@ -86,6 +86,11 @@ footer {
   background-color: cornsilk;
 }
 
+/* underline the text CONTACT */
+footer h2 {
+text-decoration: underline;
+}
+
 /* to select the table under the footer and to make it separate and organize */
 footer table {
   margin: 0 auto; /* centers the table */
@@ -111,7 +116,7 @@ footer th {
 /* for make the navigation with no undeline */
 footer td a {
   text-decoration: none;
-  
+
 }
 
 /* when pointing the cursor at the navigation the word will be underlined*/
