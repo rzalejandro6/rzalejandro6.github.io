@@ -1,49 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SIGN UP FORM 2025</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIGN UP FORM 2025</title>
 
-    <link rel="stylesheet" href="CSS/grid.css">
-    <link rel="stylesheet" href="CSS/style.css">
-    <script src="formative4.js"></script>
-
+  <link rel="stylesheet" href="CSS/grid.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <script src="formative4.js" defer></script>
 </head>
 
 <body>
-    <header> Enter Personal Details </header>
+  <header>Enter Personal Details</header>
 
-    <main>
-        <form action="">
-            <div>
-            <label for="ID Number">ID Number:</label>
-            <input type="text" name="ID Number" id="ID Number">
-            </div>
-            <div>
-            <label for="Firstname">Firstname:</label>
-            <input type="text" name="Firstname" id="Firstname">
-            </div>
-            <div>
-            <label for="Middlename">Middlename:</label>
-            <input type="text" name="Middlename" id="Middlename">
-            </div>
-            <div>
-            <label for="Lastname">Lastname:</label>
-            <input type="text" name="Lastname" id="Lastname">
-            </div>
-            <div>
-            <label for="Gender">Lastname:</label>
-            <input type="text" name="Gender" id="Gender">
-            </div>
+  <main>
+    <form id="details">
+      <section id="input">
+        <div>
+          <label for="IDNumber">ID Number:</label>
+          <input type="text" name="IDNumber" id="IDNumber" maxlength="9" placeholder="9 number digits only" pattern="\d{9}" required>
+        </div>
 
-        </form>
+        <div>
+          <label for="Firstname">Firstname:</label>
+          <input type="text" name="Firstname" id="Firstname" required>
+        </div>
 
-    </main>
+        <div>
+          <label for="Middlename">Middlename:</label>
+          <input type="text" name="Middlename" id="Middlename" required>
+        </div>
 
-    <footer>
-        
-    </footer>
-    
+        <div>
+          <label for="Lastname">Lastname:</label>
+          <input type="text" name="Lastname" id="Lastname" required>
+        </div>
+
+        <div>
+          <label>Gender:</label>
+          <label><input type="radio" name="Gender" value="Female" required> Female</label>
+          <label><input type="radio" name="Gender" value="Male" required> Male</label>
+          <label><input type="radio" name="Gender" value="Nonbinary" required> Nonbinary</label>
+        </div>
+
+        <div>
+          <label for="bdate">Birthdate:</label>
+          <input type="date" name="bdate" id="bdate" required>
+        </div>
+
+        <div>
+          <input type="reset">
+          <button type="submit" id="btnSave">Save</button>
+        </div>
+        <p>*Mulltiple data can be entered</p>
+      </section>
+    </form>
+  </main>
 </body>
 </html>

@@ -1,0 +1,30 @@
+/*  select the body of the html and edit its property  */
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto; 
+    justify-items:center; 
+    align-items: start;   
+}
+
+/* Header stays full width, but in grid layout */
+header {
+    width: 100%;
+}
+
+/* Main section uses grid for its internal structure */
+main {
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-gap: 15px;             
+}
+
+/* Form rows layout */
+div {
+    display: grid;
+    grid-template-columns: 1fr; 
+}
+
+/* keep radio buttons in one line */
+input[type="radio"] {
+   
+}
